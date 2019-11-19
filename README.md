@@ -2,17 +2,17 @@
 
 [image1]: assets/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif
 
-# P2: Continues Control
+# P2: Continuos Control
 
 ## Introduction
 
-In this project I will be working with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment. In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of my agent is to maintain its position at the target location for as many time steps as possible.
+In this project, I will be working with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment. In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of my agent is to maintain its position at the target location for as many time steps as possible.
 
 ![Trained Agent][image1]
 
-The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
+The observation space consists of 33 variables corresponding to the position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
-The task is episodic, and in order to solve the environment,our agent must get an average score of +30 over 100 consecutive episodes.
+The task is episodic, and in order to solve the environment, our agent must get an average score of +30 over 100 consecutive episodes.
 
 
 ## Installation
@@ -56,6 +56,6 @@ pip install -r requirements.txt
 
 
 # Train agent
-Run the code cells to what the agent train. After training the agent, you can load the weights from file and experiment with trained agent.
+Run the code cells to watch the agent train. After training the agent, you can load the weights from file and experiment with the trained agent.
 
 
