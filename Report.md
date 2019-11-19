@@ -31,10 +31,10 @@ The agent is implemented in class Agent. The replay buffer (memory)contains coll
 
 
 # Plot of Rewards
-The agent solves the environment at about 813 episodes. The average reward score at the state is over 30. A plot of the average reward for the is training period can be seen below.
+The agent solves the environment at about 813 episodes. The average reward score at this state is over 30. A plot of the average reward for the training period can be seen below.
 
 ![plot of average reward over time](assets/rewardplot.png "Average Agent Reward Over Time")
 
 # Ideas for future work
-* Further might improve on the average score of the agent as indicated by the continuos steep climb of the. It is evident the agent has not achieved and optimal policy.
+* Further training might improve on the average score of the agent as indicated by the continuos steep climb of the average score plot. It is evident that the agent has not achieved the optimal policy.
 * This algorithms was implemented for a single agent. Future work could include extending the algorithm (using PPO, D4PG) to account for multiple agents. 
